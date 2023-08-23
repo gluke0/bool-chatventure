@@ -10,6 +10,45 @@
     <link href="https://fonts.googleapis.com/css?family=Space+Grotesk:300,regular,500,600,700" rel="stylesheet">
 </head>
 <body>
+
+    <header>
+        <h1>ChatVenture</h1>
+        <span>Ciao, GIOCATORE, benvenuto nel gioco d'avventura testuale i cui la storia è inventata da ChatGPT</span>
+    </header>
+
+    <main class="container">
+        <div class="genres">
+            <div class="genre" data-genre="horror">👻</div>
+            <div class="genre" data-genre="spionaggio">🕵️‍♀️</div>
+            <div class="genre" data-genre="supereroi">🦸‍♀️</div>
+          </div>
+
+          <div class="loader dnone">
+            <img src="img/loader.gif" alt="loader">
+          </div>
+
+          <div id="placeholder">
+          </div>
+
+          <div id="gameover">
+            <div class="gameover">
+                <div class="icon">☠</div>
+                <h2>SEI MORTO</h2>
+                <span class="message"></span>
+                <button>Rigioca</button>
+            </div>
+          </div>
+
+          <div id="stage">
+            <div class="stage">
+                <div class="picture"></div>
+                <div class="content">
+                    <span class="description"></span>
+                    <div class="actions"></div>
+                </div>
+            </div>
+          </div>
+    </main>
     
     <script src="main.js"></script>
 </body>
