@@ -9,3 +9,46 @@ body{
     background-color: rgb(1, 21, 48);
     color: lightgray;
 }
+
+.container{
+    max-width: 550px;
+    margin: 0 auto;
+}
+
+header{
+	background-color: rgb(76, 2, 53);
+	color: rgb(233, 244, 91);
+	text-align: center;
+	padding: 3rem;
+}
+
+h1{
+	font-size: 3rem;
+}
+
+span{
+	font-size: 1.2rem;
+}
+
+.genres {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding: 3rem;
+	gap: 1rem;
+}
+
+.genre {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 90px;
+	height: 90px;
+	font-size: 2.3rem;
+	border: 1px solid lightblue;
+	cursor: pointer;
+}
+
+p:hover {
+	transform: scale(2);
+}
