@@ -38,7 +38,7 @@ async function setStage() {
   loader.classList.remove('dnone');
 
   const gptResponse = await makeRequest('/chat/completions', {
-    temperature: 0.7,
+    temperature: 0.9,
     model: GPT_MODEL,
     messages: completeChat
   });
