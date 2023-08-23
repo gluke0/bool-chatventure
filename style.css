@@ -52,3 +52,68 @@ span{
 p:hover {
 	transform: scale(2);
 }
+
+.loader{
+	height: 550px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.dnone{
+	display: none;
+}
+
+.gameover{
+	text-align: center;
+	padding: 2rem;
+}
+
+.icon{
+	font-size: 4rem;
+}
+
+button{
+	padding: 1.3rem;
+	width: 100%;
+	font-size: 1.2rem;
+	border: 1px solid lightblue;
+	background-color: transparent;
+	color: white;
+	cursor: pointer;
+}
+
+button:hover{
+	background-color: lightblue;
+}
+
+.picture{
+	min-height: 300px;
+	background-image: url('img/loader.gif');
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.picture > img{
+	max-width: 100%;
+}
+
+.content{
+	padding: 2rem;
+	position: relative;
+	top: -50px;
+	background-image: linear-gradient(to bottom, rgba(6, 24, 50, 0.5) 40%, rgb(6, 24, 50) 100%);
+}
+
+.game-started h1{
+	font-size: 2rem;
+}
+
+.game-started header{
+	padding: 2rem;
+}
+
+.game-started header span,
+.game-started .genres{
+	display: none;
+}
