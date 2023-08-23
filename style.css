@@ -30,7 +30,7 @@ span{
 	font-size: 1.2rem;
 }
 
-.genres {
+.genres{
 	display: flex;
 	align-items: center;
 	justify-content: center;
@@ -38,7 +38,7 @@ span{
 	gap: 1rem;
 }
 
-.genre {
+.genre{
 	display: flex;
 	align-items: center;
 	justify-content: center;
@@ -49,7 +49,7 @@ span{
 	cursor: pointer;
 }
 
-p:hover {
+p:hover{
 	transform: scale(2);
 }
 
@@ -106,14 +106,14 @@ button:hover{
 }
 
 .game-started h1{
-	font-size: 2rem;
+    font-size: 2rem;
 }
 
 .game-started header{
-	padding: 2rem;
+    padding: 2rem;
 }
 
 .game-started header span,
 .game-started .genres{
-	display: none;
+    display: none;
 }

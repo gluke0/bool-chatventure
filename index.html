@@ -19,27 +19,27 @@
     <main class="container">
         <div class="genres">
             <div class="genre" data-genre="horror"> <p>👻</p> </div>
-            <div class="genre" data-genre="spionaggio"><p>🕵️‍♀️</p></div>
-            <div class="genre" data-genre="supereroi"><p>🦸‍♀️</p></div>
-          </div>
+            <div class="genre" data-genre="film di spionaggio"><p>🕵️‍♀️</p></div>
+            <div class="genre" data-genre="supereroi marvel"><p>🦸‍♀️</p></div>
+        </div>
 
-          <div class="loader dnone">
+        <div class="loader dnone">
             <img src="img/loader.gif" alt="loader">
-          </div>
+        </div>
 
-          <div id="placeholder">
-          </div>
+        <div id="placeholder">
+        </div>
 
-          <div id="gameover">
+        <template id="gameover">
             <div class="gameover">
                 <div class="icon">☠</div>
                 <h2>SEI MORTO</h2>
                 <span class="message"></span>
                 <button>Rigioca</button>
             </div>
-          </div>
+        </template>
 
-          <div id="stage">
+        <template id="stage">
             <div class="stage">
                 <div class="picture"></div>
                 <div class="content">
@@ -47,7 +47,7 @@
                     <div class="actions"></div>
                 </div>
             </div>
-          </div>
+        </template>
     </main>
     
     <script src="main.js"></script>
